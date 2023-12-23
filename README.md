@@ -13,8 +13,10 @@ docker build docker build -t csgo-rpi --platform linux/arm/v8 .
 
 ## Usage :
 once you build it, you can run it using this command :
+
 ```sh
-docker run -d -e EXTRA_ARGS="" -p 27015:27015/udp -p 27015:27015/tcp -p 27020:27020/```
+docker run -d -e EXTRA_ARGS="" -p 27015:27015/udp csgo-rpi
+```
 Where ```EXTRA_ARGS``` is an environement variable that contain arguments for the csgo game server, such as `+game_mode 0`, `+bot_quota 0` `+mapgroup mg_active`, etc.
 Adding bots is not recommended because bots create a lot of lags.
 
