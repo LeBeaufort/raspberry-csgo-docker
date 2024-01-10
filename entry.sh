@@ -11,6 +11,6 @@ echo "Installing csgo game server"
 
 
 cd /csgo/
-echo "we are in echo we are in $(pwd)"
+echo "we are in $(pwd)"
 
 eval $cmd

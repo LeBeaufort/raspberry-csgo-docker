@@ -8,7 +8,7 @@ for use this image, you have to clone the repository using this command
 then, you can build it using this commands :
 ```sh
 cd raspberry-csgo-docker
-docker build docker build -t csgo-rpi --platform linux/arm/v8 .
+docker build -t csgo-rpi --platform linux/arm/v8 .
 ```
 
 ## Usage :
